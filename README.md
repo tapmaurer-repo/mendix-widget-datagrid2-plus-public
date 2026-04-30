@@ -1,5 +1,9 @@
 # Datagrid2+
 
+<p align="center">
+  <img src="readme-banner.svg" alt="Datagrid2+ banner" width="100%" />
+</p>
+
 **A Mendix Pluggable Widget that supercharges Datagrid 2.**
 
 Sticky headers, sticky columns, smart column selector, header visibility, Excel-style cell borders, per-section text styling, and keyboard shortcuts — all configurable from Mendix Studio Pro. No custom CSS needed.

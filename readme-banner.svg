@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+  <defs>
+    <radialGradient id="bgGlow" cx="35%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#0f1730" stop-opacity="1"></stop>
+      <stop offset="55%" stop-color="#0a0a0c" stop-opacity="1"></stop>
+      <stop offset="100%" stop-color="#08080a" stop-opacity="1"></stop>
+    </radialGradient>
+    <pattern id="dotGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1a1f2e"></circle>
+    </pattern>
+    <linearGradient id="hdrGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#146ff5" stop-opacity=".22"></stop>
+      <stop offset="100%" stop-color="#146ff5" stop-opacity=".05"></stop>
+    </linearGradient>
+    <linearGradient id="firstColGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#146ff5" stop-opacity=".18"></stop>
+      <stop offset="100%" stop-color="#146ff5" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="brandFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"></stop>
+      <stop offset="100%" stop-color="#cfd6e4"></stop>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#146ff5"></stop>
+      <stop offset="100%" stop-color="#4d8eff"></stop>
+    </linearGradient>
+    <linearGradient id="fadeOut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e0f12" stop-opacity="0"></stop>
+      <stop offset="100%" stop-color="#0e0f12" stop-opacity="1"></stop>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="8"></feGaussianBlur>
+    </filter>
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="540" height="270" rx="12"></rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bgGlow)"></rect>
+  <rect width="1280" height="400" fill="url(#dotGrid)" opacity="0.5"></rect>
+
+  <rect x="30" y="30" width="1220" height="340" fill="none" stroke="#1a1f2e" stroke-width="1"></rect>
+  <g stroke="#3a4566" stroke-width="1">
+    <line x1="21" y1="30" x2="39" y2="30"></line>
+    <line x1="30" y1="21" x2="30" y2="39"></line>
+    <line x1="1241" y1="30" x2="1259" y2="30"></line>
+    <line x1="1250" y1="21" x2="1250" y2="39"></line>
+    <line x1="21" y1="370" x2="39" y2="370"></line>
+    <line x1="30" y1="361" x2="30" y2="379"></line>
+    <line x1="1241" y1="370" x2="1259" y2="370"></line>
+    <line x1="1250" y1="361" x2="1250" y2="379"></line>
+  </g>
+
+  
+  <g transform="translate(75, 50)">
+    
+    <g>
+      <rect x="0" y="0" width="40" height="24" rx="6" fill="#146ff5"></rect>
+      <text x="20" y="16" text-anchor="middle" fill="#fff" font-family="Geist Mono, monospace" font-size="11" font-weight="700" letter-spacing="0.6">DG2+</text>
+      <text x="52" y="17" font-family="Geist, sans-serif" font-size="17" font-weight="600" fill="#f4f4f5" letter-spacing="-0.4">Datagrid2<tspan fill="#4d8eff">+</tspan></text>
+    </g>
+
+    
+    <g transform="translate(0, 44)">
+      <rect x="0" y="0" width="334" height="30" rx="15" fill="#0a0a0a" stroke="#27272a" stroke-width="1"></rect>
+      <rect x="6" y="6" width="44" height="18" rx="9" fill="#146ff5"></rect>
+      <text x="28" y="18" font-family="Geist Mono, monospace" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="0.5">NEW</text>
+      <text x="60" y="20" font-family="Geist, sans-serif" font-size="12" font-weight="400" fill="#a1a1aa">v1.0.0 — drop-in for Mendix Datagrid 2</text>
+    </g>
+
+    
+    <text y="140" font-family="Geist, sans-serif" font-size="54" font-weight="500" fill="#f4f4f5" letter-spacing="-2">Extend your Datagrid 2,</text>
+
+    
+    <text y="196" font-family="Geist, sans-serif" font-size="54" font-weight="500" letter-spacing="-2"><tspan fill="#f4f4f5">with </tspan><tspan fill="url(#accentGrad)">one widget.</tspan></text>
+
+    
+    <g transform="translate(0, 222)">
+      <line x1="0" y1="0" x2="260" y2="0" stroke="#146ff5" stroke-width="1"></line>
+      <line x1="-5" y1="0" x2="5" y2="0" stroke="#146ff5" stroke-width="1.2"></line>
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="#146ff5" stroke-width="1.2"></line>
+      <line x1="255" y1="0" x2="265" y2="0" stroke="#146ff5" stroke-width="1.2"></line>
+      <line x1="260" y1="-5" x2="260" y2="5" stroke="#146ff5" stroke-width="1.2"></line>
+    </g>
+
+    
+    <text x="0" y="250" font-family="Geist, sans-serif" font-size="15" font-weight="400" fill="#a1a1aa" letter-spacing="-0.2">Sticky behaviors, keyboard shortcuts, header control,</text>
+    <text x="0" y="272" font-family="Geist, sans-serif" font-size="15" font-weight="400" fill="#a1a1aa" letter-spacing="-0.2">cell styling — all configurable from Studio Pro.</text>
+
+    
+    <g transform="translate(0, 304)" font-family="Geist Mono, monospace" font-size="10" letter-spacing="1.8" fill="#146ff5">
+      <text x="0" y="0">STICKY</text>
+      <text x="64" y="0" fill="#3a3a40">·</text>
+      <text x="78" y="0">LAYOUT</text>
+      <text x="148" y="0" fill="#3a3a40">·</text>
+      <text x="162" y="0">STYLING</text>
+      <text x="240" y="0" fill="#3a3a40">·</text>
+      <text x="254" y="0">DX</text>
+    </g>
+  </g>
+
+  
+  <g transform="translate(680, 65)">
+    <rect x="6" y="14" width="540" height="270" rx="12" fill="#000" filter="url(#softShadow)" opacity=".55"></rect>
+    <rect x="0" y="0" width="540" height="270" rx="12" fill="#0e0f12" stroke="#27272a" stroke-width="1"></rect>
+
+    <g clip-path="url(#cardClip)">
+      
+      <rect x="0" y="0" width="540" height="32" fill="#13141a"></rect>
+      <line x1="0" y1="32" x2="540" y2="32" stroke="#27272a" stroke-width="1"></line>
+      <circle cx="16" cy="16" r="4" fill="#3a3a40"></circle>
+      <circle cx="30" cy="16" r="4" fill="#3a3a40"></circle>
+      <circle cx="44" cy="16" r="4" fill="#3a3a40"></circle>
+      <text x="270" y="20" text-anchor="middle" fill="#71717a" font-family="Geist Mono, monospace" font-size="10.5">Datagrid2+ — live</text>
+      <rect x="468" y="9" width="60" height="16" rx="3" fill="#146ff5"></rect>
+      <text x="498" y="20" text-anchor="middle" fill="#fff" font-family="Geist Mono, monospace" font-size="9" font-weight="600">INTERACTIVE</text>
+
+      
+      <g transform="translate(0, 32)">
+        <rect x="0" y="0" width="540" height="34" fill="url(#hdrGrad)"></rect>
+        <line x1="0" y1="34" x2="540" y2="34" stroke="#146ff5" stroke-opacity=".55" stroke-width="1.2"></line>
+
+        <rect x="0" y="0" width="120" height="238" fill="url(#firstColGrad)"></rect>
+        <line x1="120" y1="0" x2="120" y2="238" stroke="#146ff5" stroke-opacity=".7" stroke-width="2"></line>
+
+        <g stroke="#1f2027" stroke-width="1">
+          <line x1="120" y1="0" x2="120" y2="238"></line>
+          <line x1="220" y1="0" x2="220" y2="238"></line>
+          <line x1="290" y1="0" x2="290" y2="238"></line>
+          <line x1="365" y1="0" x2="365" y2="238"></line>
+          <line x1="445" y1="0" x2="445" y2="238"></line>
+        </g>
+
+        
+        <g font-family="Geist, sans-serif" font-size="10" font-weight="600" fill="#cfd6e4" letter-spacing="0.8">
+          <text x="14" y="22">NAME</text>
+          <text x="134" y="22">STATUS</text>
+          <text x="234" y="22">ACTIVE</text>
+          <text x="304" y="22">REGION</text>
+          <text x="379" y="22">UPDATED</text>
+          <text x="459" y="22">ACTION</text>
+        </g>
+
+        
+        <g font-family="Geist, sans-serif" font-size="11" fill="#d4d4d8">
+          
+          <g transform="translate(0, 34)">
+            <line x1="0" y1="34" x2="540" y2="34" stroke="#1f2027" stroke-width="1"></line>
+            <text x="14" y="21" font-weight="500" fill="#fff">Viktor K.</text>
+            <g transform="translate(134, 9)">
+              <rect width="68" height="18" rx="9" fill="#6db8ff" fill-opacity=".14" stroke="#6db8ff" stroke-opacity=".35" stroke-width="1"></rect>
+              <circle cx="9" cy="9" r="2.5" fill="#6db8ff"></circle>
+              <text x="17" y="13" font-size="10" fill="#6db8ff">In Progress</text>
+            </g>
+            <text x="234" y="21" fill="#71717a">No</text>
+            <text x="304" y="21">EMEA</text>
+            <text x="379" y="21" fill="#a1a1aa" font-family="Geist Mono, monospace" font-size="10">2m ago</text>
+            <g transform="translate(459, 8)" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <g stroke="#9bb6e0">
+                <path d="M 1 13 L 1 16 L 4 16 L 13 7 L 10 4 Z"></path>
+                <path d="M 10 4 L 13 7"></path>
+              </g>
+              <g transform="translate(28, 0)" stroke="#ff7a90">
+                <path d="M 2 4 L 14 4"></path>
+                <path d="M 4 4 L 4 15 L 12 15 L 12 4"></path>
+                <path d="M 6 4 L 6 2 L 10 2 L 10 4"></path>
+              </g>
+            </g>
+          </g>
+
+          
+          <g transform="translate(0, 68)">
+            <line x1="0" y1="34" x2="540" y2="34" stroke="#1f2027" stroke-width="1"></line>
+            <text x="14" y="21" font-weight="500" fill="#fff">Anna P.</text>
+            <g transform="translate(134, 9)">
+              <rect width="62" height="18" rx="9" fill="#ff7a90" fill-opacity=".14" stroke="#ff7a90" stroke-opacity=".35" stroke-width="1"></rect>
+              <circle cx="9" cy="9" r="2.5" fill="#ff7a90"></circle>
+              <text x="17" y="13" font-size="10" fill="#ff7a90">Rejected</text>
+            </g>
+            <text x="234" y="21" fill="#71717a">No</text>
+            <text x="304" y="21">NA</text>
+            <text x="379" y="21" fill="#a1a1aa" font-family="Geist Mono, monospace" font-size="10">5m ago</text>
+            <g transform="translate(459, 8)" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <g stroke="#9bb6e0">
+                <path d="M 1 13 L 1 16 L 4 16 L 13 7 L 10 4 Z"></path>
+                <path d="M 10 4 L 13 7"></path>
+              </g>
+              <g transform="translate(28, 0)" stroke="#ff7a90">
+                <path d="M 2 4 L 14 4"></path>
+                <path d="M 4 4 L 4 15 L 12 15 L 12 4"></path>
+                <path d="M 6 4 L 6 2 L 10 2 L 10 4"></path>
+              </g>
+            </g>
+          </g>
+
+          
+          <g transform="translate(0, 102)">
+            <rect x="0" y="0" width="540" height="34" fill="#146ff5" fill-opacity=".08"></rect>
+            <rect x="0" y="0" width="540" height="34" fill="none" stroke="#146ff5" stroke-opacity=".5" stroke-width="1"></rect>
+            <text x="14" y="21" font-weight="500" fill="#fff">Sem Jansen</text>
+            <g transform="translate(134, 9)">
+              <rect width="56" height="18" rx="9" fill="#146ff5" fill-opacity=".18" stroke="#4d8eff" stroke-opacity=".5" stroke-width="1"></rect>
+              <circle cx="9" cy="9" r="2.5" fill="#7fb4ff">
+                
+              </circle>
+              <text x="17" y="13" font-size="10" fill="#7fb4ff">Active</text>
+            </g>
+            <text x="234" y="21" fill="#a4d535" font-weight="500">Yes</text>
+            <text x="304" y="21">APAC</text>
+            <text x="379" y="21" fill="#a1a1aa" font-family="Geist Mono, monospace" font-size="10">7m ago</text>
+            <g transform="translate(459, 8)" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <g stroke="#7fb4ff">
+                <path d="M 1 13 L 1 16 L 4 16 L 13 7 L 10 4 Z"></path>
+                <path d="M 10 4 L 13 7"></path>
+              </g>
+              <g transform="translate(28, 0)" stroke="#ff7a90">
+                <path d="M 2 4 L 14 4"></path>
+                <path d="M 4 4 L 4 15 L 12 15 L 12 4"></path>
+                <path d="M 6 4 L 6 2 L 10 2 L 10 4"></path>
+              </g>
+            </g>
+          </g>
+
+          
+          <g transform="translate(0, 136)">
+            <line x1="0" y1="34" x2="540" y2="34" stroke="#1f2027" stroke-width="1"></line>
+            <text x="14" y="21" font-weight="500" fill="#fff">Lisa de Vries</text>
+            <g transform="translate(134, 9)">
+              <rect width="62" height="18" rx="9" fill="#ffb86b" fill-opacity=".14" stroke="#ffb86b" stroke-opacity=".35" stroke-width="1"></rect>
+              <circle cx="9" cy="9" r="2.5" fill="#ffb86b"></circle>
+              <text x="17" y="13" font-size="10" fill="#ffb86b">Pending</text>
+            </g>
+            <text x="234" y="21" fill="#a4d535" font-weight="500">Yes</text>
+            <text x="304" y="21">EMEA</text>
+            <text x="379" y="21" fill="#a1a1aa" font-family="Geist Mono, monospace" font-size="10">12m ago</text>
+            <g transform="translate(459, 8)" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <g stroke="#9bb6e0">
+                <path d="M 1 13 L 1 16 L 4 16 L 13 7 L 10 4 Z"></path>
+                <path d="M 10 4 L 13 7"></path>
+              </g>
+              <g transform="translate(28, 0)" stroke="#ff7a90">
+                <path d="M 2 4 L 14 4"></path>
+                <path d="M 4 4 L 4 15 L 12 15 L 12 4"></path>
+                <path d="M 6 4 L 6 2 L 10 2 L 10 4"></path>
+              </g>
+            </g>
+          </g>
+
+          
+          <g transform="translate(0, 170)">
+            <line x1="0" y1="34" x2="540" y2="34" stroke="#1f2027" stroke-width="1"></line>
+            <text x="14" y="21" font-weight="500" fill="#fff">James Wilson</text>
+            <g transform="translate(134, 9)">
+              <rect width="72" height="18" rx="9" fill="#27272a" stroke="#3a3a40" stroke-width="1"></rect>
+              <circle cx="9" cy="9" r="2.5" fill="#71717a"></circle>
+              <text x="17" y="13" font-size="10" fill="#a1a1aa">Completed</text>
+            </g>
+            <text x="234" y="21" fill="#71717a">No</text>
+            <text x="304" y="21">LATAM</text>
+            <text x="379" y="21" fill="#a1a1aa" font-family="Geist Mono, monospace" font-size="10">24m ago</text>
+            <g transform="translate(459, 8)" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <g stroke="#9bb6e0">
+                <path d="M 1 13 L 1 16 L 4 16 L 13 7 L 10 4 Z"></path>
+                <path d="M 10 4 L 13 7"></path>
+              </g>
+              <g transform="translate(28, 0)" stroke="#ff7a90">
+                <path d="M 2 4 L 14 4"></path>
+                <path d="M 4 4 L 4 15 L 12 15 L 12 4"></path>
+                <path d="M 6 4 L 6 2 L 10 2 L 10 4"></path>
+              </g>
+            </g>
+          </g>
+
+          
+          <g transform="translate(0, 204)">
+            <line x1="0" y1="34" x2="540" y2="34" stroke="#1f2027" stroke-width="1"></line>
+            <text x="14" y="21" font-weight="500" fill="#fff">Maria Santos</text>
+            <g transform="translate(134, 9)">
+              <rect width="56" height="18" rx="9" fill="#146ff5" fill-opacity=".18" stroke="#4d8eff" stroke-opacity=".5" stroke-width="1"></rect>
+              <circle cx="9" cy="9" r="2.5" fill="#7fb4ff"></circle>
+              <text x="17" y="13" font-size="10" fill="#7fb4ff">Active</text>
+            </g>
+            <text x="234" y="21" fill="#a4d535" font-weight="500">Yes</text>
+            <text x="304" y="21">EMEA</text>
+            <text x="379" y="21" fill="#a1a1aa" font-family="Geist Mono, monospace" font-size="10">31m ago</text>
+            <g transform="translate(459, 8)" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <g stroke="#9bb6e0">
+                <path d="M 1 13 L 1 16 L 4 16 L 13 7 L 10 4 Z"></path>
+                <path d="M 10 4 L 13 7"></path>
+              </g>
+              <g transform="translate(28, 0)" stroke="#ff7a90">
+                <path d="M 2 4 L 14 4"></path>
+                <path d="M 4 4 L 4 15 L 12 15 L 12 4"></path>
+                <path d="M 6 4 L 6 2 L 10 2 L 10 4"></path>
+              </g>
+            </g>
+          </g>
+        </g>
+
+        <rect x="0" y="200" width="540" height="38" fill="url(#fadeOut)"></rect>
+      </g>
+    </g>
+
+    
+    <g transform="translate(-32, 38)">
+      <rect x="0" y="0" width="138" height="30" rx="15" fill="#0f0f0f" stroke="#1a1f2e" stroke-width="1"></rect>
+      <circle cx="16" cy="15" r="4" fill="#7fb4ff">
+        
+      </circle>
+      <text x="30" y="20" font-family="Geist, sans-serif" font-size="12" font-weight="500" fill="#cfd6e4">sticky header</text>
+    </g>
+
+    
+    <g transform="translate(382, 256)">
+      <rect x="0" y="0" width="158" height="30" rx="15" fill="#0f0f0f" stroke="#1a1f2e" stroke-width="1"></rect>
+      <circle cx="16" cy="15" r="4" fill="#a4d535"></circle>
+      <text x="30" y="20" font-family="Geist, sans-serif" font-size="12" font-weight="500" fill="#cfd6e4">9 tools enabled</text>
+    </g>
+  </g>
+</svg>
