@@ -8,7 +8,12 @@
 
 Sticky headers, sticky columns, smart column selector, header visibility, Excel-style cell borders, per-section text styling, and keyboard shortcuts — all configurable from Mendix Studio Pro. No custom CSS needed.
 
+<p align="center">
+  <strong>Coming to the Mendix Marketplace — May 2026</strong>
+</p>
+
 [![Mendix](https://img.shields.io/badge/Mendix-9.24%20%7C%2010.x%20%7C%2011.6+-0595DB?logo=mendix&logoColor=white)](https://mendix.com)
+[![Marketplace](https://img.shields.io/badge/Marketplace-Coming%20May%202026-FF7900)](https://marketplace.mendix.com)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/tapmaurer-repo/mendix-widget-datagrid2-plus-public/releases)
 
